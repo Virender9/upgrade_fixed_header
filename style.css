@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards{
+    display:inline-block;
+    width: 10rem;
+    height: 10rem;
+    background-color: violet;
+    margin: auto;
+    position: relative;
+}
+
+img{
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    margin: 0.5rem;
+}
+
+a{
+    margin-top: 0;
+    padding: 0;
+    position: absolute;
+    text-decoration: none;
+}
+
+button{
+    padding: 0.8rem;
+    margin: 2.5rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.text{
+    position: absolute;
+    margin: 1.8rem;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: light;
+}
