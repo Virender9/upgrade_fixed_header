@@ -4,40 +4,48 @@
     box-sizing: border-box;
 }
 
-.cards{
-    display:inline-block;
-    width: 10rem;
-    height: 10rem;
-    background-color: violet;
-    margin: auto;
-    position: relative;
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(#e66465, #9198e5) ;
+    align-items: center;
+    position: fixed;
 }
 
-img{
-    width: 9rem;
-    height: 9rem;
-    position: absolute;
-    margin: 0.5rem;
-}
-
-a{
-    margin-top: 0;
-    padding: 0;
-    position: absolute;
+h1 a{
+    vertical-align: center;
     text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 5px;
 }
 
-button{
-    padding: 0.8rem;
-    margin: 2.5rem;
-    cursor: pointer;
-    font-weight: 700;
+.nav_links ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
 }
 
-.text{
-    position: absolute;
-    margin: 1.8rem;
-    color: #fff;
+
+li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    background: linear-gradient(to right, #283271, #283271 50%, #d7a150 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+    margin: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 6px;
+    padding: 0.3rem;
     letter-spacing: 1px;
-    font-weight: light;
+    color: white;
+}
+
+li a:hover{
+    background-color: #ec499d;
+    color: rgb(246, 219, 219);
+    transition: all 0.3s cubic-bezier(0.000,0.000,0.230,1);
+    background-position: 0 0;
 }
